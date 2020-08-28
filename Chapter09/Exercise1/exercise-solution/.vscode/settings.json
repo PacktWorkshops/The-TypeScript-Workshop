@@ -1,0 +1,8 @@
+{
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true,
+		"source.organizeImports": true
+	},
+	"prettier.printWidth": 120,
+	"typescript.tsdk": "node_modules/typescript/lib"
+}

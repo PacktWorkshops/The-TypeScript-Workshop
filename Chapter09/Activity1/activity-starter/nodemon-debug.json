@@ -1,0 +1,7 @@
+{
+  "watch": ["src"],
+  "ext": "ts",
+  "ignore": ["src/**/*.spec.ts"],
+  "exec": "node --preserve-symlinks --inspect -r ts-node/register -r source-map-support/register src/main.ts",
+  "//exec": "node --inspect-brk -r ts-node/register src/main.ts"
+}
