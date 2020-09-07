@@ -1,6 +1,6 @@
-# The TypeScript Workshop - Exercise 3.04
+# The TypeScript Workshop - Exercise 3.06
 
 1. Install dependencies with `npm i`.
-2. Implement a function library in `curried-cat-lib.ts`.
-3. Import the library into `curried-cat.ts`.
-4. Execute the program with `npx ts-node curried-cat.ts`.
+2. Run `node refactor-shapes.js` to run the legacy code.
+3. Edit `refactor-shapes.ts` and implement the logic.
+4. Execute the program with `npx ts-node refactor-shapes.ts`.

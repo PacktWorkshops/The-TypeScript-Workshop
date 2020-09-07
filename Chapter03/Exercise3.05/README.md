@@ -1,6 +1,5 @@
 # The TypeScript Workshop - Exercise 3.05
 
 1. Install dependencies with `npm i`.
-2. Run `node refactor-shapes.js` to run the legacy code.
-3. Edit `refactor-shapes.ts` and implement the logic.
-4. Execute the program with `npx ts-node refactor-shapes.ts`.
+2. Edit `order.ts` and implement the logic.
+3. Execute the program with `npx ts-node order.ts`.
