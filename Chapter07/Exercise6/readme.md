@@ -1,4 +1,5 @@
-### Exercise 7.05 - Creating a logging decorator for a method
+### Exercise 7.06 - Adding metadata to methods
 
 1. Install dependencies with `npm i`.
-2. Execute the program with `npx ts-node teacher-logging.ts`.
+2. Execute the program with `npx ts-node calculator-metadata.ts`.
+
