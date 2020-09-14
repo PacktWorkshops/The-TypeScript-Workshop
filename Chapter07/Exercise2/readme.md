@@ -1,4 +1,4 @@
-### Exercise 7.01 - Creating a simple class decorator factory
+### Exercise 7.02 - Using a constructor extension decorator
 
 1. Install dependencies with `npm i`.
 2. Execute the program with `npx ts-node school-token.start.ts`.
