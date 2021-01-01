@@ -89,7 +89,7 @@ console.log(repeat("bell", 0));
 
 function isAlpha (input: string): boolean {
     // regex that will match any string that only has upper and lowercase letters 
-    const alphaRegex = /^[a-zA-Z]*$/
+    const alphaRegex = /^[a-z]*$/i
     // test our input using the regex
     const result = alphaRegex.test(input);
     return result;
