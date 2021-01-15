@@ -1,7 +1,7 @@
 const updateUI = (message: any): void => {
   const item = document.getElementById('my-data');
   if (item) {
-    item.innerText = message;
+    item.innerText = `Here is your data: ${message}`;
   }
 };
 
