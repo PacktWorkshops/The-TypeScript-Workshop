@@ -15,7 +15,9 @@ class App {
   initialize = () => {
     return Promise.all([
       this.db.initialize(),
-      new Promise((resolve) => this.server.listen(this.port, resolve)),
+      new Promise((resolve) =>
+        this.server.listen(this.port, () => resolve(true))
+      ),
     ]).then(() => console.log('Application is ready!'));
   };
 
