@@ -95,13 +95,13 @@ const first = new Person("Brendan", "Eich", new Date(1961,6,4));
 const second = new Person("Anders", "Hejlsberg ", new Date(1960,11,2));
 const third = new Person("Alan", "Turing", new Date(1912,5,23));
 
-console.log(first.getFullName());
-console.log(second.getFullName());
-console.log(third.getFullName());
+const fname = first.getFullName();
+const sname = second.getFullName();
+const tname = third.getFullName();
 
-console.log(first.getAge());
-console.log(second.getAge());
-console.log(third.getAge());
+const fage = first.getAge();
+const sage = second.getAge();
+const tage = third.getAge();
 
 if (!first.title) {
     first.title = "Mr."
