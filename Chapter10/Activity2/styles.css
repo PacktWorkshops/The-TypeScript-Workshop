@@ -1,0 +1,73 @@
+body {
+    margin: auto;
+    text-align: start;
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-blend-mode: lighten;
+    background-color: rgba(162,162,162,0.8);
+    background-size: cover;
+  }
+  label:nth-child(1) {
+    font-size: 1.7rem;
+    color: purple;
+  }
+  input {
+    width: 50%;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid grey;
+  }
+  button {
+    transition-duration: 0.4s;
+    background-color: white;
+    border: 1px solid red;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  
+  button:hover {
+    background-color: #4caf50;
+    color: white;
+  }
+
+  #result {
+    margin-top: 1rem;
+    padding: 50px;
+    display: flex;
+  }
+
+  .main-part {
+    text-align: center;
+    padding-right: 10px;
+  }
+
+  .title {
+    font-size: 3em;
+  }
+
+  .details-part {
+    max-width: 750px;
+  }
+
+  .details-part .detail{
+    padding-top: 5px;
+  }
+
+  .cast {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+
+  .character {
+    text-align: center;
+    padding: 8px;
+  }
+
+  @media only screen and (max-width: 880px) {
+    #result {
+        flex-direction: column;
+    }
+  }
