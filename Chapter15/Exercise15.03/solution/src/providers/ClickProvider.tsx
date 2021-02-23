@@ -6,7 +6,7 @@ import React, {
   useState,
 } from 'react';
 
-interface ClickContext {
+interface Clicks {
   clicks: number;
   setClicks: Dispatch<SetStateAction<number>>;
 }
@@ -15,7 +15,7 @@ interface ContextProps {
   children: ReactNode;
 }
 
-export const ClickContext = createContext<ClickContext>({
+export const ClickContext = createContext<Clicks>({
   clicks: 0,
   setClicks: () => {},
 });
