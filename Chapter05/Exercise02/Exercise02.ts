@@ -8,11 +8,11 @@ interface AddToPost {
     (post: BlogPost): BlogPost []
 }
 
-interface IBlogPostClass {
+interface IBlogPost {
     allPost: BlogPost [],
     addToPost: AddToPost
 }
-class blogPostClass implements IBlogPostClass{
+class blogPostClass implements IBlogPost{
     allPost: BlogPost [] = []  
     addToPost(post: BlogPost): BlogPost[] {
         this.allPost = [
