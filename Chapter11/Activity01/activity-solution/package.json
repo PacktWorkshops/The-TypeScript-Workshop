@@ -1,0 +1,24 @@
+{
+  "name": "12-hocs-callbacks",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node ./dist/main.js",
+    "start:watch": "nodemon",
+    "format": "prettier --write 'src/**/*.ts' '*.{ts,js,json,md}'",
+    "dev": "nodemon --config nodemon-debug.json",
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "@types/node": "^12.12.54",
+    "jest": "^26.4.2",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.1.1",
+    "ts-jest": "^26.3.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  }
+}
