@@ -1,4 +1,4 @@
-// operators/multiply.operator.ts - step 10
+// operators/multiply.operator.ts
 import { injectable } from 'inversify';
 import { Operator } from '../interfaces/operator.interface';
 

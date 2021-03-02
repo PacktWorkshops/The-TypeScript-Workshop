@@ -1,4 +1,3 @@
-//code for step 7
 import 'reflect-metadata';
 
 import { Calculator } from './calculator';

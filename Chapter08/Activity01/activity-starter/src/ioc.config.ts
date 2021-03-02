@@ -1,8 +1,7 @@
+// ioc.config.ts
 import { Container } from 'inversify';
-import { Calculator } from './calculator';
-import { Logger } from './interfaces/logger.interface';
+import { Calculator } from './calculator/index';
 import { Operator } from './interfaces/operator.interface';
-import { FileLogger } from './logger/file.logger';
 import * as Operators from './operators';
 import { TYPES } from './types';
 
@@ -13,7 +12,5 @@ Object.values(Operators).forEach(Operator => {
 });
 
 container.bind(Calculator).toSelf();
-
-container.bind<Logger>(TYPES.Logger).to(FileLogger);
 
 

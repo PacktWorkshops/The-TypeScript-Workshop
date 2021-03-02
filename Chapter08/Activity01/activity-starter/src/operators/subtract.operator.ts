@@ -1,4 +1,4 @@
-// operators/subtract.operator.ts - Step 9
+// operators/subtract.operator.ts
 import { injectable } from 'inversify';
 import { Operator } from '../interfaces/operator.interface';
 

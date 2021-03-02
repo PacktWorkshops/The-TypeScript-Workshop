@@ -1,4 +1,3 @@
-//Step 2 and Step 3
 import { injectable } from 'inversify';
 import { Operator } from '../interfaces/operator.interface';
 
