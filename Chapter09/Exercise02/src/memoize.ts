@@ -27,5 +27,3 @@ const memoizedExpensiveCalculation = memoize(expensiveCalculation);
 
 expensiveCalculation("not-a-number", 1); // ✅ Argument of type '"not-a-number"' is not assignable to parameter of type 'number'.
 memoizedExpensiveCalculation("not-a-number", 1); // ❌ compiles without errors, when it shouldn't.
-
-memoizedExpensiveCalculation("not-a-number", 1);
