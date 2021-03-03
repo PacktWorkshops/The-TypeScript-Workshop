@@ -25,14 +25,6 @@ function expensiveCalculation(a: number, b: number) {
 
 const memoizedExpensiveCalculation = memoize(expensiveCalculation);
 
-/* console.log('start:', new Date());
-console.log(memoizedExpensiveCalculation(3));
-console.log('end:', new Date());
-
-console.log('start:', new Date());
-console.log(memoizedExpensiveCalculation(3));
-console.log('end:', new Date());
- */
 expensiveCalculation("not-a-number", 1); // ✅ Argument of type '"not-a-number"' is not assignable to parameter of type 'number'.
 memoizedExpensiveCalculation("not-a-number", 1); // ❌ compiles without errors, when it shouldn't.
 
