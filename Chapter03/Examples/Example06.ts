@@ -1,7 +1,8 @@
-function myFunction(name: string = 'world'): string {
-    return `Hello ${name}!`;
+function readBook(title: string, ...chapters: number[]): void {
+    console.log(`Starting to read ${title}...`);
+    chapters.forEach(chapter => {
+      console.log(`Reading chapter ${chapter}.`);
+    });
+    console.log('Done reading.');
   }
-  //const message = myFunction();
-  // console.log(message);
-const message = myFunction('reader');
-console.log(message);
+  readBook('The TypeScript Book', 1, 2, 3);  

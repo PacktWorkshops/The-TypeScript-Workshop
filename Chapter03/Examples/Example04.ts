@@ -1,7 +1,6 @@
-function myFunction(name: string): string {
+function myFunction(name?: string): string {
     return `Hello ${name}!`;
   }
-  const message = myFunction('world');
+  const message = myFunction();
   console.log(message);
-  // Hello world!
- // console.log(myFunction('world'));    
+    
