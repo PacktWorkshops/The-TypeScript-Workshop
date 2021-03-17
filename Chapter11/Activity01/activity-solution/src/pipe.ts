@@ -26,3 +26,12 @@ export function pipe<T>(...fns: UnaryFunction<any, any>[]): UnaryFunction<any, a
     return fns.reduce((prev, fn) => fn(prev), arg);
   };
 }
+const composedFn = pipe(
+  (x: string) => x.toUpperCase(),
+  x => [x, x].join(','),
+  x => x.length,
+  x => x.toString(),
+  x => Number(x),
+);
+
+console.log('result is:', composedFn('hello'))
