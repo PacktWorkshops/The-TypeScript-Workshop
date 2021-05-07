@@ -21,7 +21,7 @@ export interface StoryModel {
   user: string;
 }
 
-export interface StoriesContext {
+export interface StoriesContextModel {
   stories: StoryModel[];
   addComment: (
     id: string,
@@ -34,7 +34,7 @@ export interface StoriesContext {
 
 const storiesDB = db.collection('stories');
 
-export const StoriesContext = createContext<Partial<StoriesContext>>({});
+export const StoriesContext = createContext<Partial<StoriesContextModel>>({});
 
 export const StoriesProvider = ({ children }: ContextProps) => {
   const [stories, setStories] = useState<StoryModel[]>();
