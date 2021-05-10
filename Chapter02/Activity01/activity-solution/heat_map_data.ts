@@ -14,3 +14,4 @@ export const findMatch = (batterHotZones, pitcherHotZones) => {
 };
 
 data.coordinateMap = findMatch(data.batterHotZones, data.pitcherHotZones);
+console.log(data.coordinateMap);
