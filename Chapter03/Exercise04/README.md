@@ -1,4 +1,4 @@
-# The TypeScript Workshop - Exercise 3.03
+# The TypeScript Workshop - Exercise 3.04
 
 1. Install dependencies with `npm i`.
 2. Edit `account.ts` and implement the logic.

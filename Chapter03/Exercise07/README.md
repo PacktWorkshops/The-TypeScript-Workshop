@@ -1,4 +1,4 @@
-# The TypeScript Workshop - Exercise 3.06
+# The TypeScript Workshop - Exercise 3.07
 
 1. Install dependencies with `npm i`.
 2. Run `node refactor-shapes.js` to run the legacy code.

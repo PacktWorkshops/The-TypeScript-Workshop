@@ -1,4 +1,4 @@
-# The TypeScript Workshop - Exercise 3.02
+# The TypeScript Workshop - Exercise 3.03
 
 1. Install dependencies with `npm i`.
 2. Edit `arrow-cat.ts` and implement the logic.

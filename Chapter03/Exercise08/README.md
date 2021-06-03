@@ -1,4 +1,4 @@
-# The TypeScript Workshop - Exercise 3.04
+# The TypeScript Workshop - Exercise 3.08
 
 1. Install dependencies with `npm i`.
 2. Implement a function library in `shapes-lib.ts`.

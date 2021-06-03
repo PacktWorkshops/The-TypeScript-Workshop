@@ -1,4 +1,4 @@
-# The TypeScript Workshop - Exercise 3.05
+# The TypeScript Workshop - Exercise 3.06
 
 1. Install dependencies with `npm i`.
 2. Edit `order.ts` and implement the logic.
