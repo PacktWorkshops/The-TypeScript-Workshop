@@ -1,4 +1,4 @@
-# The TypeScript Workshop - Exercise 12.01
+# The TypeScript Workshop - Exercise 12.02
 
 1. Install dependencies with `npm i`.
 2. Edit `recursive.ts` and implement the logic.

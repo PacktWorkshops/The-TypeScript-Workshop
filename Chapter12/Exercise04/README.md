@@ -1,4 +1,4 @@
-# The TypeScript Workshop - Exercise 12.03
+# The TypeScript Workshop - Exercise 12.04
 
 1. Install dependencies with `npm i`.
 2. Enter `npx tsc -w data-loader.ts` to build in watch mode.

@@ -1,4 +1,4 @@
-# The TypeScript Workshop - Exercise 12.04
+# The TypeScript Workshop - Exercise 12.05
 
 1. Install dependencies with `npm i`.
 2. Edit `file-concat.ts` and implement the logic.

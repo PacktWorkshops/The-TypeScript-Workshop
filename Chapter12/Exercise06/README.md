@@ -1,4 +1,4 @@
-# The TypeScript Workshop - Activity 12.01
+# The TypeScript Workshop - Exercise 12.06
 
 1. Install dependencies with `npm i`.
 2. Edit `app.ts`, `db.ts`, and `router.ts` and implement the logic.
