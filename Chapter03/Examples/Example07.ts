@@ -5,4 +5,4 @@ function readBook(title: string, chapters: number[]): void {
     });
     console.log('Done reading.');
   }
-  readBook('The TypeScript Book', [1, 2, 3]);  
+  readBook('The TypeScript Workshop', [1, 2, 3]);  
