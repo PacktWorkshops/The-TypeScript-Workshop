@@ -1,4 +1,4 @@
-### Exercise 1.06 - Making a calculator function;
+### Activity 1.01 - Making a calculator function;
 
 1. Install dependencies with `npm i`.
 
