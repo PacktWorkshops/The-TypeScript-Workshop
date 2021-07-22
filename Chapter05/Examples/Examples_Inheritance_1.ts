@@ -25,10 +25,14 @@ class AdminUser extends UserOne {
 }
 //create an instance of our child class
 const adminUser: AdminUser = new AdminUser() 
+
 //create a string to hold our props
 let propString = ''
+
 //loop through your props and append prop names to propString
 for(let u in adminUser) {
     propString += u + ','
 }
+
+//console out the results
 console.log(propString)
