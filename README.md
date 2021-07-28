@@ -1,5 +1,10 @@
 # The-TypeScript-Workshop
 
+The TypeScript Workshop is designed for software developers who want to broaden
+their skill set by learning TypeScript. To get the most out of this book, you should
+have a basic knowledge of JavaScript or experience of using another similar
+programming language.
+
 ## Installation and Setup ##
 
 ### VS Code
