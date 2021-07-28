@@ -1,6 +1,6 @@
 # The-TypeScript-Workshop
 
-## Installation and Setup
+## Installation and Setup ##
 
 ### VS Code
 This book uses VS Code as the IDE to save and run TypeScript and JavaScript files.
