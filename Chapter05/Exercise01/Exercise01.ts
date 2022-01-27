@@ -4,7 +4,7 @@ interface ProductObjectTemplate {
     color: string
 }
 interface ProductFunctionTemplate {
-    (product: ProductObjectTemplate)
+    (product: ProductObjectTemplate): void
 }
 interface ProductClassTemplate {
     makeProduct: ProductFunctionTemplate
