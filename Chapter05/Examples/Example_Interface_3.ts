@@ -31,4 +31,4 @@ const product: ProductTemplate = {height:100, width:200, color: 'pink'}
 // instance product class with new product object 
 const newProduct = new ProductClass(product)
 // console our new product instance
-console.log(newProduct.product)
+console.log(newProduct.makeProduct())
