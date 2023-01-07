@@ -1,5 +1,6 @@
 @Token
 class Teacher {
+    token: any;
     constructor (public id: number, public name: string) {}
 }
 function Token (constructor: Function) {
